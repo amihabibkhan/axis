@@ -1,0 +1,554 @@
+
+/* mega menu from 992 to up */
+@media (min-width: 992px) {
+    /* menu bar */
+    #my_nav ul li .dropdown-menu{
+        transition: all .5s;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+    }
+    #my_nav ul li:hover .dropdown-menu{
+        visibility: visible;
+        opacity: 1;
+    }
+    #small_nav{
+        display: none!important;
+    }
+    .sticky {
+        border-bottom: 1px solid #cafff1;
+    }
+
+
+}
+
+/* ---------------Extra large device--------------- */
+@media(min-width: 1200px) and (max-width: 1300) {
+    /* slider part */
+    .main_slider .left_arrow, .main_slider .right_arrow {
+        transform: none;
+        top: 20px;
+    }
+}
+
+/* ---------------large device--------------- */
+@media(min-width: 992px) and (max-width: 1199px) {
+    /* slider part */
+    .main_slider .left_arrow, .main_slider .right_arrow {
+        transform: none;
+        top: 20px;
+    }
+    /* event part */
+    .single_event {
+        padding: 30px;
+    }
+    /* blog part */
+    .blog {
+        padding: 40px 0;
+    }
+    .hblog {
+        max-height: none;
+    }
+    .blog_thumbnail {
+        height: 200px;
+    }
+    .blog_thumbnail img {
+        min-width: 100%;
+    }
+    .blog_content {
+        padding: 15px;
+    }
+
+}
+
+/* ---------------medium device--------------- */
+@media(min-width: 768px) and (max-width: 991px) {
+    /* nav bar */
+    .custom_nav{
+        background-color: #1ca79a !important;
+        height: auto;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+        background-color: #fff;
+    }
+
+    /* slider part */
+    .single_slider{
+        padding-bottom: 0;
+        height: 450px;
+    }
+    .single_slider h1 {
+        font-size: 35px;
+    }
+    .single_slider h3 {
+        font-size: 22px;
+    }
+    .single_slider h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .single_slider .fill_button {
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+    .main_slider .left_arrow, .main_slider .right_arrow {
+        transform: none;
+        top: 20px;
+    }
+    /* about icon */
+    .single_iconss a i {
+        font-size: 25px;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+    }
+    .single_iconss h2 {
+        font-size: 16px;
+    }
+    .icon_part {
+        height: 150px;
+        top: -75px;
+    }
+    .about {
+        padding: 130px 0 40px;
+    }
+    /* course part */
+    .courses {
+        padding: 40px 0;
+    }
+    .single_course {
+        margin-bottom: 30px;
+    }
+    /* event part */
+    .single_event {
+        padding: 15px 10px 10px;
+    }
+    .event {
+        padding: 40px 0;
+    }
+    /* register part */
+    .register {
+        padding: 40px 0;
+    }
+    .register_info {
+        padding: 0;
+    }
+    .register_info h3{
+        font-size: 25px;
+    }
+    .register_info p {
+        margin: 0;
+        padding: 10px 0 30px;
+    }
+    /* gallery part */
+    .gallery {
+        padding: 40px 0;
+    }
+    /* blog part */
+    .blog {
+        padding: 40px 0;
+    }
+    .hblog {
+        max-height: none;
+    }
+    .blog_thumbnail {
+        height: 200px;
+    }
+    .blog_thumbnail img {
+        min-width: 100%;
+    }
+    .blog_content {
+        padding: 15px;
+    }
+    /* video part */
+    .video {
+        padding: 40px 0;
+    }
+    /* team part */
+    .team .left, .team .right {
+        bottom: 30px;
+    }
+    .team {
+        padding: 40px 0 80px;
+    }
+    /* featire part */
+    .feature {
+        padding: 40px 0;
+    }
+    .single_feature {
+        margin-bottom: 30px;
+    }
+    .feature .mt-5{
+        margin-top: 0!important;
+    }
+    /* partner part */
+    .partner {
+        padding: 30px 0;
+    }
+    /* footer section */
+    .footer {
+        padding: 40px 0;
+    }
+    .footer_social_icon ul li {
+        margin-bottom: 30px;
+    }
+    /* section title */
+    .section_title h2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+}
+
+/* ---------------small device--------------- */
+@media(min-width: 576px) and (max-width: 767px) {
+    /* nav bar */
+    .custom_nav{
+        background-color: #1ca79a !important;
+        height: auto;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+        background-color: #fff;
+    }
+
+    /* slider part */
+    .single_slider{
+        padding-bottom: 0;
+        height: 350px;
+    }
+    .single_slider h1 {
+        font-size: 25px;
+    }
+    .single_slider h3 {
+        font-size: 18px;
+    }
+    .single_slider h2 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .single_slider .fill_button {
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+    .main_slider .left_arrow, .main_slider .right_arrow {
+        top: auto;
+        transform: none;
+        bottom: 20px;
+    }
+    /* about part */
+    .about {
+        padding: 40px 0;
+    }
+    .about_content h3 {
+        padding-top: 15px;
+    }
+    .about_video {
+        height: 250px;
+    }
+    /* course part */
+    .courses {
+        padding: 40px 0;
+    }
+    .single_course {
+        margin-bottom: 30px;
+    }
+    /* event part */
+    .event {
+        padding: 40px 0;
+    }
+    .single_event {
+        padding: 15px 0;
+        margin: 15px auto;
+    }
+    .event_details h3 {
+        font-size: 18px;
+        padding: 15px 0 0;
+    }
+    .date_and_button .date h3 {
+        font-size: 18px;
+    }
+    .date_and_button .date h2 {
+        font-size: 25px;
+    }
+    /* register part */
+    .register {
+        padding: 40px 0;
+    }
+    .register_info {
+        padding: 0;
+    }
+    .register_info h3{
+        font-size: 25px;
+    }
+    .register_info p {
+        margin: 0;
+        padding: 10px 0 30px;
+    }
+    /* gallery part */
+    .gallery {
+        padding: 40px 0;
+    }
+    /* blog part */
+    .blog {
+        padding: 40px 0;
+    }
+    .hblog {
+        max-height: none;
+    }
+    .blog_thumbnail {
+        height: 200px;
+    }
+    .blog_thumbnail img {
+        min-width: 100%;
+    }
+    .blog_content {
+        padding: 15px;
+    }
+    /* video part */
+    .video {
+        padding: 40px 0;
+    }
+    /* team part */
+    .team .left, .team .right {
+        bottom: 30px;
+    }
+    .team {
+        padding: 40px 0 80px;
+    }
+    /* featire part */
+    .feature {
+        padding: 40px 0;
+    }
+    .single_feature {
+        margin-bottom: 30px;
+    }
+    .feature .mt-5{
+        margin-top: 0!important;
+    }
+    /* partner part */
+    .partner {
+        padding: 30px 0;
+    }
+    /* footer section */
+    .footer {
+        padding: 40px 0;
+    }
+    .footer_social_icon ul li {
+        margin-bottom: 30px;
+    }
+    /* section title */
+    .section_title h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .single_date {
+        padding: 0 15px;
+    }
+    .event_counter h3 {
+        font-size: 20px;
+    }
+    .event_counter span {
+        font-size: 30px;
+    }
+    .event_baner_content > h2 {
+        font-size: 35px;
+    }
+    .highlighted_text {
+        padding: 15px;
+        border-radius: 10px;
+        margin: 30px 0;
+    }
+    .highlighted_text p {
+        letter-spacing: 0px;
+        font-size: 15px;
+        border-left: 2px solid #fff;
+        border-right: 2px solid #fff;
+        padding: 0 10px;
+    }
+}
+
+/* ---------------extra small device--------------- */
+@media(max-width: 575px) {
+    /* nav bar */
+    .custom_nav{
+        background-color: #1ca79a !important;
+        height: auto;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+        background-color: #fff;
+    }
+    /* slider part */
+    .single_slider{
+        padding-bottom: 0;
+        height: 350px;
+    }
+    .single_slider h1 {
+        font-size: 25px;
+    }
+    .single_slider h3 {
+        font-size: 18px;
+    }
+    .single_slider h2 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .single_slider .fill_button {
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+    .main_slider .left_arrow, .main_slider .right_arrow {
+        top: 20px;
+        transform: none;
+    }
+    /* about part */
+    .about {
+        padding: 40px 0;
+    }
+    .about_content h3 {
+        padding-top: 15px;
+    }
+    .about_video {
+        height: 180px;
+    }
+    /* course part */
+    .courses {
+        padding: 40px 0;
+    }
+    .single_course {
+        margin-bottom: 30px;
+    }
+    /* event part */
+    .event {
+        padding: 40px 0;
+    }
+    .single_event {
+        padding: 15px 0;
+        margin: 15px auto;
+    }
+    .event_details h3 {
+        font-size: 18px;
+        padding: 15px 0 0;
+    }
+    .date_and_button .date h3 {
+        font-size: 18px;
+    }
+    .date_and_button .date h2 {
+        font-size: 25px;
+    }
+    /* register part */
+    .register {
+        padding: 40px 0;
+    }
+    .register_info {
+        padding: 0;
+    }
+    .register_info h3{
+        font-size: 25px;
+    }
+    .register_info p {
+        margin: 0;
+        padding: 10px 0 30px;
+    }
+    /* gallery part */
+    .gallery {
+        padding: 40px 0;
+    }
+    /* blog part */
+    .blog {
+        padding: 40px 0;
+    }
+    .hblog {
+        max-height: none;
+    }
+    .blog_thumbnail {
+        height: 200px;
+    }
+    .blog_thumbnail img {
+        min-width: 100%;
+    }
+    .blog_content {
+        padding: 15px;
+    }
+    /* video part */
+    .video {
+        padding: 40px 0;
+    }
+    /* team part */
+    .team {
+        padding: 40px 0 100px;
+    }
+    .team .left, .team .right {
+        bottom: 40px;
+    }
+    /* featire part */
+    .feature {
+        padding: 40px 0;
+    }
+    .single_feature {
+        margin-bottom: 30px;
+    }
+    .feature .mt-5{
+        margin-top: 0!important;
+    }
+    /* partner part */
+    .partner {
+        padding: 30px 0;
+    }
+    /* footer section */
+    .footer {
+        padding: 40px 0;
+    }
+    .footer_social_icon ul li {
+        margin-bottom: 30px;
+    }
+    /* section title */
+    .section_title h2 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    /* all courses page */
+    .page_title_in_banner h2 {
+        font-size: 30px;
+    }
+    .inner_banner {
+        height: 180px;
+    }
+    .events,
+    .course_details,
+    .blog_details {
+        padding: 40px 0;
+    }
+    .event_ban{
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .single_date {
+        padding: 0 15px;
+    }
+    .event_counter h3 {
+        font-size: 10px;
+    }
+    .event_counter span {
+        font-size: 20px;
+    }
+    .event_baner_content > h2 {
+        font-size: 25px;
+    }
+    .highlighted_text {
+        padding: 15px;
+        border-radius: 10px;
+        margin: 30px 0;
+    }
+    .highlighted_text p {
+        letter-spacing: 0px;
+        font-size: 15px;
+        border-left: 2px solid #fff;
+        border-right: 2px solid #fff;
+        padding: 0 10px;
+    }
+}

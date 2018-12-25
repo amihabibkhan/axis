@@ -1,0 +1,262 @@
+.courses{
+    position: relative;
+    padding-bottom: 130px;
+}
+.courses .popular_left,
+.courses .popular_right{
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    height: 30px;
+    width: 50px;
+    background-color: #1ca79a;
+    transform: translateX(-50%);
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: .3s;
+}
+.courses .popular_left:hover,
+.courses .popular_right:hover{
+    background-color: transparent;
+    border-color: #1ca79a;
+}
+.courses .popular_left:hover i,
+.courses .popular_right:hover i{
+    color: #1ca79a;
+}
+.courses .popular_left{
+    margin-left: -35px;
+}
+.courses .popular_right{
+    margin-left: 35px;
+}
+.courses .popular_left i,
+.courses .popular_right i{
+    color: #fff;
+    line-height: 30px;
+}
+/* trending course */
+.trending{
+    background-color: #efefef;
+}
+
+/* filter part start */
+.filter{
+    padding-top: 60px;
+}
+/* filter part end */
+/* course details page start */
+.c_details{
+    padding: 80px 0;
+}
+a.active{
+  background-color: #1bb4b9 !important;
+    color: #fff !important;
+    border: none !important;
+}
+.list-group-item:first-child {
+     border-top-left-radius: 0rem;
+     border-top-right-radius: 0rem;
+}
+.list-group-item:last-child {
+     border-bottom-left-radius: 0rem;
+     border-bottom-right-radius: 0rem;
+}
+
+.heighlight{
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 10px;
+    margin-top: 30px;
+}
+.heighlight table{
+    margin-bottom: 0rem;
+}
+.heighlight table td{
+    border-bottom: 1px solid rgba(0,0,0,.125) ;
+    border-top: none;
+}
+.heighlight table tr:last-child td{
+    border-bottom: 0px;
+}
+.heighlight table tr td:first-child{
+    white-space: nowrap;
+}
+.share_course{
+    margin-top: 30px;
+    text-align: center;
+}
+.share_course a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #1bb4b9;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 38px;
+    border: 1px solid transparent;
+    transition: all .3s;
+    margin: 0 5px;
+}
+.share_course a:hover{
+    border-color: #1bb4b9;
+    background-color: transparent;
+    color: #1bb4b9;
+}
+.about_course h2{
+    color: #1bb4b9;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.about_course p{
+    margin-bottom: 15px;
+}
+.about_course ul{
+    list-style-type: square;
+    padding-left: 50px;
+}
+.about_course ul li{
+    margin-bottom: 10px;
+}
+.syllabus{
+    padding: 30px 0;
+}
+.syllabus h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sidebar__inner a.fill_button{
+    background-color: black;
+    padding: 15px 0;
+    border-radius: 0;
+    font-size: 18px;
+}
+.sidebar__inner a.fill_button:hover{
+    background-color: transparent;
+}
+
+.single_instructor{
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.ins_thumbnail{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    border: 5px solid rgba(0,0,0,.125);
+    box-sizing: border-box;
+    box-shadow: 0 0 10px black;
+}
+.single_instructor .ins_thumbnail img{
+    width: 100%;
+}
+.single_instructor h3{
+    color: #1bb4b9;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.single_instructor h6{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+.single_instructor p{
+    margin-bottom: 0;
+}
+
+.faq .card-header{
+    padding: 0;
+}
+.faq .card-header a{
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    padding: 12px;
+    display: block;
+    text-align: left;
+    border-radius: 0;
+}
+
+.faq .card{
+    box-sizing: border-box;
+    border: 1px solid #1bb4b9;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+.faq .card-header a:hover{
+    color: yellow;
+}
+.faq .card-header:first-child{
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+.faq .card-header{
+    background-color: #1bb4b9;
+    border: none;
+}
+.review{
+    padding: 30px 0;
+}
+.review h2{
+    margin-bottom: 15px;
+}
+.review table th{
+    font-weight: 400;
+    font-family: 'Roboto Slab', Serif;
+    padding: 20px 0;
+}
+.review table th i{
+    color: #1bb4b9;
+}
+.review .reviewer{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.review .reviewer img{
+    width: 100%;
+}
+.review table td{
+    border: none;
+}
+.review table td i{
+    color: #1bb4b9;
+}
+.about_course hr{
+    position: relative;
+    border-color: #8dfaf7;
+    margin-bottom: 20px;
+}
+.about_course hr:after{
+    position: absolute;
+    height: 3px;
+    width: 100px;
+    content: '';
+    background-color: #1bb4b9;
+    top: -2px;
+    left: 0;
+}
+#all_card{
+    display: none;
+}
+#full_syllabus_button{
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 0;
+}
+#full_syllabus_button:focus{
+    background-color: #09c3fa;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+/* course details page end */
