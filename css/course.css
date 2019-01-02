@@ -67,6 +67,7 @@ a.active{
     border: 1px solid rgba(0,0,0,.125);
     padding: 10px;
     margin-top: 30px;
+    background-color: rgba(27, 180, 185,.2);
 }
 .heighlight table{
     margin-bottom: 0rem;
@@ -80,6 +81,14 @@ a.active{
 }
 .heighlight table tr td:first-child{
     white-space: nowrap;
+}
+p.starting{
+    text-align: center;
+    margin-bottom: 7px;
+    background-color: #1bb4b9;
+    color: #fff;
+    font-family: 'Montserrat', serif;
+    padding: 10px;
 }
 .share_course{
     margin-top: 30px;
@@ -98,9 +107,16 @@ a.active{
     margin: 0 5px;
 }
 .share_course a:hover{
-    border-color: #1bb4b9;
-    background-color: transparent;
-    color: #1bb4b9;
+    color: yellow;
+}
+.promo .about_video{
+    box-shadow: none;
+    margin-bottom: 30px;
+    height: auto;
+}
+.promo .about_video img{
+    width: 100%;
+    height: auto;
 }
 .about_course h2{
     color: #1bb4b9;
@@ -131,6 +147,7 @@ a.active{
     padding: 15px 0;
     border-radius: 0;
     font-size: 18px;
+    margin-bottom: 7px;
 }
 .sidebar__inner a.fill_button:hover{
     background-color: transparent;

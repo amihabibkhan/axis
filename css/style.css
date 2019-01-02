@@ -503,8 +503,8 @@ ul.submenu li ul li:hover a{
     top: 0;
     width: 100%;
     z-index: 500;
-    background-color: rgba(255,255,255,.9);
-    /*transition: .5s;*/
+    background-color: rgba(0,0,0,.8);
+    transition: .5s;
     height: 60px;
 }
 .sticky + .main_slider {
@@ -512,6 +512,21 @@ ul.submenu li ul li:hover a{
 }
 .sticky .submenu{
     top: 70px;
+}
+.sticky #my_nav ul li a{
+    color: #fff;
+}
+.sticky #my_nav ul li.active a{
+    color: yellow!important;
+}
+.sticky #my_nav ul li:hover > a{
+    color: yellow!important;
+}
+.sticky #my_nav ul li ul li a{
+    color: #000;
+}
+.sticky #my_nav ul li:hover ul li ul li a{
+    color: #000!important;
 }
 a.live{
     padding-left: 30px!important;
@@ -824,6 +839,37 @@ a.live{
     background-color: rgba(28,167,154, .5);
     margin: 20px 0;
 }
+
+/* new course design start */
+.n_single_course{
+    border: 1px solid rgba(0,0,0,.3);
+    box-shadow: 2px 2px 4px rgba(0,0,0,.3);
+    transition: .3s;
+}
+.n_single_course .c_cont h2{
+    color: rgba(0,0,0,.8);
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+    transition: .3s;
+}
+.n_single_course:hover .c_cont h2{
+    color: #1ca79a;
+}
+.n_single_course .c_thumb{
+    overflow: hidden;
+}
+.n_single_course .c_thumb img{
+    transition: .3s
+}
+.n_single_course:hover .c_thumb img{
+    transform: scale(1.1);
+    opacity: .6;
+}
+
+
+
 /* course part end */
 
 /* event part start */
